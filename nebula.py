@@ -23,9 +23,9 @@ import numpy as np
 from time import sleep
 
 # import Nebula modules
-from old_nebula.ai_factory import AIFactory
-from old_nebula.affect import Affect
-from old_nebula.nebula_dataclass import NebulaDataClass
+from ai_factory import AIFactory
+from affect import Affect
+from nebula_dataclass import NebulaDataClass
 
 class Nebula:
     """Nebula is the core "director" of an AI factory.
